@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LENA SON </title>
+    <style>
+        *{ 
+            margin: 0;
+            padding: 0;
+        }
+        body{
+          
+            width: 1200px;
+            height: 1200px;
+          
+        }
+     
+        .center{
+            position: absolute;
+            top: 20%;
+            left: 50%;
+            transform: translate(-50% ,-50%);
+            font-size: 50px;
+            font-family: 'Times New Roman', Times, serif;
+            letter-spacing: 20px;
+        
+        }
+
+        .dropdown{
+            position : absolute;
+            display : inline-block;            
+            top: 30%;
+            left: 44%;
+            font-size: 14px;
+            color: rgb(168, 166, 166);
+         }
+         .dropdown :hover{
+            color: pink;
+         }
+
+        .menu{
+            display : none;
+            position : absolute;
+            z-index : 1;
+         }
+
+        .menu a{
+            display : block;
+            font-size: 13px;
+            color: rgb(168, 166, 166);
+            text-decoration: none;
+            line-height:1.5;
+            padding: 8px;
+        
+        }
+      
+        .menu a:hover{
+             color: pink;
+        }
+
+        .dropdown:hover .menu{
+             display: block;
+          
+        }
+        .contact1{
+            position : absolute;
+            top: 30%;
+            left: 53%;
+            font-size: 14px;
+            
+        }
+        
+        .contact1 a{
+            text-decoration: none;
+            color: rgb(168, 166, 166);
+        }
+        .contact1 a:hover{
+            color: pink;
+        }
+        .contact-main{
+            position : absolute;
+            font-size: 25px;
+            top: 65%;
+            left: 37%;
+            font-family: 'Gochi Hand', cursive;;
+            letter-spacing: 7px;
+            text-align: center;
+        }
+      
+ 
+
+
+    </style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  
+ <header>
+        <div class="center">LENA SON</div>
+        <div class="dropdown">
+            <span class="dropbtn">Project</span>
+            <div class="menu">
+              <a href="https://lena2.netlify.app/">Poster</a>
+              <a href="https://lena3.netlify.app/">Photo</a>
+              <a href="https://summer-breeze3.netlify.app/">Branding</a>
+            </div>
+          </div> 
+         
+          <div class="contact1">
+            <a href="#">Contact</a>
+        </div>
+</header>
+
+<div class="contact-main">
+    h_mooon@naver.com <br> <p style="font-size: 18px; letter-spacing: 4px;">+82)10-6425-8437</p>
+</div>
+</body>
+</html>
